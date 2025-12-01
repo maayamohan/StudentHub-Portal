@@ -1,8 +1,8 @@
-export default function StudentCard () {
+export default function StudentCard ({ name, dept }) {
     return (
         <div className="card">
-            <h3>Student Name</h3>
-            <p>Department</p>
+            <h3>{name}</h3>
+            <p>Department: {dept}</p>
         </div>
     )
 }
