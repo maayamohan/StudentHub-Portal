@@ -4,5 +4,5 @@ export default function StudentCard ({ name, dept }) {
             <h3>{name}</h3>
             <p>Department: {dept}</p>
         </div>
-    )
+    );
 }
