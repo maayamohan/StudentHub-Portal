@@ -47,6 +47,8 @@ StudentHub is a full-stack web app where users can:
 
 * Deploy using NextJS frontend \+ Express backend or full NextAPI.
 
+<br />
+
 ## **PHASE 1 — React Fundamentals (Frontend)**
 
 ### **A. React Basics & Component System**
@@ -83,6 +85,8 @@ StudentHub is a full-stack web app where users can:
 ### **PROJECT MILESTONE 1:**  
  - Build the **React Frontend** of our project (UI \+ forms \+ routing)
 
+<br />
+
 ## **PHASE 2 — NodeJS Fundamentals (Backend Foundation)**
 
 ### **A. Node.js Architecture**
@@ -101,6 +105,8 @@ StudentHub is a full-stack web app where users can:
 ### **PROJECT MILESTONE 2:**  
  - Build a **Node server**  
  - Learn how Node handles files, requests, async behaviour
+
+<br />
 
 ## **PHASE 3 — ExpressJS (Server \+ APIs)**
 
@@ -139,6 +145,8 @@ StudentHub is a full-stack web app where users can:
  - Connect React UI to real backend endpoints  
  - Add file upload endpoints
 
+<br />
+
 ## **PHASE 4 — MongoDB (Database Layer)**
 
 ### **A. MongoDB Basics (WT U4 p.1–6)**
@@ -167,6 +175,8 @@ StudentHub is a full-stack web app where users can:
  - Connect Express → MongoDB  
  - Implement database-backed CRUD  
  - Full MERN app functional end-to-end
+
+<br />
 
 ## **PHASE 5 — Next.js (Advanced React Framework)**
 
