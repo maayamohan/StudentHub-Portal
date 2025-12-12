@@ -1,4 +1,4 @@
-export default function StudentCard ({ name, dept }) {
+export default function StudentCard ({ name, dept, scholarship }) {
     return (
         <div className="card">
             <h3>{name} {scholarship && "🎓"}</h3>
