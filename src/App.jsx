@@ -1,5 +1,6 @@
 import { useState } from "react";
 import StudentCard from "./components/StudentCard";
+import AddStudentForm from "./components/AddStudentForm";
 
 export default function App() {
 
@@ -7,6 +8,10 @@ export default function App() {
     { id:1, name:"Maaya", dept:"CSE", scholarship:false },
     { id:2, name:"Saket", dept:"CND", scholarship:true },
   ]);
+
+  function addStudent(name, dept, scholarship) {
+    setStudents([...students, {id:(students.length + 1), name, dept, scholarship }])
+  }
 
   return (
     <div>
@@ -21,6 +26,7 @@ export default function App() {
           scholarship={s.scholarship}
         />
       ))}
+      <AddStudentForm addStudent={addStudent} />
     </div>
   );
 }
