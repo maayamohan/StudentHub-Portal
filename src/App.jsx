@@ -1,11 +1,12 @@
+import { useState } from "react";
 import StudentCard from "./components/StudentCard";
 
 export default function App() {
 
-  const students = [
+  const [students, setStudents] = useState([
     { id:1, name:"Maaya", dept:"CSE", scholarship:false },
     { id:2, name:"Saket", dept:"CND", scholarship:true },
-  ];
+  ]);
 
   return (
     <div>
