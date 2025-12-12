@@ -1,11 +1,12 @@
 import StudentCard from "./components/StudentCard";
 
-const students = [
-  { id:1, name:"Maaya", dept:"CSE", scholarship:false },
-  { id:2, name:"Saket", dept:"CND", scholarship:true },
-];
-
 export default function App() {
+
+  const students = [
+    { id:1, name:"Maaya", dept:"CSE", scholarship:false },
+    { id:2, name:"Saket", dept:"CND", scholarship:true },
+  ];
+
   return (
     <div>
       <h1>StudentHub Portal</h1>
