@@ -6,8 +6,8 @@ export default function App() {
       <h1>StudentHub Portal</h1>
       <p>Manage Students Easily</p>
       <br />
-      <StudentCard name="Maaya" dept="CSE" />
-      <StudentCard name="Saket" dept="CND" />
+      <StudentCard name="Maaya" dept="CSE" scholarship={false} />
+      <StudentCard name="Saket" dept="CND" scholarship={true} />
     </div>
   );
 }
