@@ -1,13 +1,24 @@
 import StudentCard from "./components/StudentCard";
 
+const students = [
+  { id:1, name:"Maaya", dept:"CSE", scholarship:false },
+  { id:2, name:"Saket", dept:"CND", scholarship:true },
+];
+
 export default function App() {
   return (
     <div>
       <h1>StudentHub Portal</h1>
       <p>Manage Students Easily</p>
       <br />
-      <StudentCard name="Maaya" dept="CSE" scholarship={false} />
-      <StudentCard name="Saket" dept="CND" scholarship={true} />
+      {students.map(s => (
+        <StudentCard
+          key={s.id}
+          name={s.name}
+          dept={s.dept}
+          scholarship={s.scholarship}
+        />
+      ))}
     </div>
   );
 }
