@@ -25,11 +25,14 @@ export default function AddStudentForm({ addStudent }) {
                 onChange={e => setDept(e.target.value)}
                 placeholder="Department"
             />
-            <input
-                type="checkbox"
-                checked={scholarship}
-                onChange={e => setScholarship(e.target.checked)}
-            />
+            <label>
+                Scholarship
+                <input
+                    type="checkbox"
+                    checked={scholarship}
+                    onChange={e => setScholarship(e.target.checked)}
+                />
+            </label>
             <button type="submit">Add Student</button>
         </form>
     );
