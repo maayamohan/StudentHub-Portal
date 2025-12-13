@@ -26,9 +26,9 @@ export default function AddStudentForm({ addStudent }) {
                 placeholder="Department"
             />
             <input
-                value={scholarship}
+                type="checkbox"
+                checked={scholarship}
                 onChange={e => setScholarship(e.target.checked)}
-                placeholder="Scholarship"
             />
             <button type="submit">Add Student</button>
         </form>
