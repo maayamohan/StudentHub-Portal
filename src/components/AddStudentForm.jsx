@@ -7,7 +7,7 @@ export default function AddStudentForm({ addStudent }) {
 
     function handleSubmit(e) {
         e.preventDefault();
-        addStudent(name, dept);
+        addStudent(name, dept, scholarship);
         setName("");
         setDept("");
         setScholarship(false);
