@@ -1,4 +1,4 @@
-export default function StudentCard ({ name, dept, scholarship }) {
+export default function StudentCard ({ id, name, dept, scholarship, onDelete }) {
 
     function handleView() {
         alert(`${name}'s details`)
