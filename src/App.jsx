@@ -13,6 +13,10 @@ export default function App() {
     setStudents([...students, {id:(students.length + 1), name, dept, scholarship }])
   }
 
+  function deleteStudent(id) {
+    setStudents(students.filter(s => s.id !== id));
+  }
+
   return (
     <div>
       <h1>StudentHub Portal</h1>
@@ -24,6 +28,7 @@ export default function App() {
           name={s.name}
           dept={s.dept}
           scholarship={s.scholarship}
+          onDelete = {deleteStudent}
         />
       ))}
       <AddStudentForm addStudent={addStudent} />
