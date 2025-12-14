@@ -25,6 +25,7 @@ export default function App() {
       {students.map(s => (
         <StudentCard
           key={s.id}
+          id={s.id}
           name={s.name}
           dept={s.dept}
           scholarship={s.scholarship}
