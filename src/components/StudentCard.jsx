@@ -9,6 +9,7 @@ export default function StudentCard ({ name, dept, scholarship }) {
             <h3>{name} {scholarship && "🎓"}</h3>
             <p>Department: {dept}</p>
             <button onClick={handleView}>View Details</button>
+            <button onClick={() => onDelete(id)}>Delete</button>
         </div>
     );
 }
